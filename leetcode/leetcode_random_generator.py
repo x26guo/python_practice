@@ -1,3 +1,3 @@
 import random
 
-print(random.randint(1,70))
+print(random.randint(1,72))
