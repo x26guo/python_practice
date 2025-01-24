@@ -9,7 +9,7 @@ class Solution:
             for i in range(n, len(nums)):
                 current.append(nums[i])
                 backtrack(output, current, i+1)
-                del current[len(current) - 1]
+                del current[-1]
 
 
         output = []
